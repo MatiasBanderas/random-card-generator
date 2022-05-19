@@ -3,11 +3,16 @@
 body {
   background-color: darkgreen;
 }
+.wrapper {
+  overflow: hidden;
+}
 .card {
+  padding-top: 20px;
+  margin: auto;
   border: 2px, black, thick;
   background-color: whitesmoke;
-  width: 120px;
-  height: 480px;
+  width: 190px;
+  height: 280px;
 }
 .heart {
   color: red;
