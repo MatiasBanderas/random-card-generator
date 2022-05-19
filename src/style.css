@@ -1,1 +1,23 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: darkgreen;
+}
+.card {
+  border: 2px, black, thick;
+  background-color: whitesmoke;
+  width: 120px;
+  height: 480px;
+}
+.heart {
+  color: red;
+}
+.diamond {
+  color: red;
+}
+.clover {
+  color: black;
+}
+.spade {
+  color: black;
+}
