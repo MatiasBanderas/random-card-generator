@@ -10,15 +10,23 @@ window.onload = function() {
   switch (Math.floor(Math.random() * 4) + 1) {
     case 1:
       cardPicker.classList.add("heart");
+      document.getElementById("logo").textContent = "♥";
+      document.getElementById("logoFlip").textContent = "♥";
       break;
     case 2:
       cardPicker.classList.add("diamond");
+      document.getElementById("logo").textContent = "♦";
+      document.getElementById("logoFlip").textContent = "♦";
       break;
     case 3:
       cardPicker.classList.add("club");
+      document.getElementById("logo").textContent = "♣";
+      document.getElementById("logoFlip").textContent = "♣";
       break;
     case 4:
       cardPicker.classList.add("spade");
+      document.getElementById("logo").textContent = "♠";
+      document.getElementById("logoFlip").textContent = "♠";
   }
   switch (Math.floor(Math.random() * 13) + 1) {
     case 1:

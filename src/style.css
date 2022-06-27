@@ -12,6 +12,31 @@ body {
   background-color: whitesmoke;
   width: 190px;
   height: 280px;
+  display: flex;
+  font-size: xx-large;
+}
+#who {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-self: center;
+  align-self: center;
+}
+#logo {
+  font-size: 5vw;
+  padding-top: 15px;
+  padding-left: 25px;
+  align-self: flex-start;
+}
+#logoFlip {
+  font-size: 5vw;
+  padding-top: 15px;
+  padding-left: 25px;
+  align-self: flex-end;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 .heart {
   color: red;
