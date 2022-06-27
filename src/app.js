@@ -22,30 +22,42 @@ window.onload = function() {
   }
   switch (Math.floor(Math.random() * 13) + 1) {
     case 1:
-      nmbr = "1";
+      document.getElementById("who").textContent = "1";
+      break;
     case 2:
-      nmbr = "2";
+      document.getElementById("who").textContent = "2";
+      break;
     case 3:
-      nmbr = "3";
+      document.getElementById("who").textContent = "3";
+      break;
     case 4:
-      nmbr = "4";
+      document.getElementById("who").textContent = "4";
+      break;
     case 5:
-      nmbr = "5";
+      document.getElementById("who").textContent = "5";
+      break;
     case 6:
-      nmbr = "6";
+      document.getElementById("who").textContent = "6";
+      break;
     case 7:
-      nmbr = "7";
+      document.getElementById("who").textContent = "7";
+      break;
     case 8:
-      nmbr = "8;";
+      document.getElementById("who").textContent = "8";
+      break;
     case 9:
-      nmbr = "9";
+      document.getElementById("who").textContent = "9";
+      break;
     case 10:
-      nmbr = "10";
+      document.getElementById("who").textContent = "10";
+      break;
     case 11:
-      nmbr = "J";
+      document.getElementById("who").textContent = "J";
+      break;
     case 12:
-      nmbr = "Q";
+      document.getElementById("who").textContent = "Q";
+      break;
     case 13:
-      nmbr = "K";
+      document.getElementById("who").textContent = "K";
   }
 };
