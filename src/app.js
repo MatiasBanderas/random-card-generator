@@ -2,10 +2,22 @@
 import "bootstrap";
 import "./style.css";
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
 window.onload = function() {
   //write your code here
-  console.log("Hello Rigo from the console!");
+
+  const cardPicker = document.querySelector(".card");
+
+  switch (Math.floor(Math.random() * 4) + 1) {
+    case 1:
+      cardPicker.classList.add("heart");
+      break;
+    case 2:
+      cardPicker.classList.add("diamond");
+      break;
+    case 3:
+      cardPicker.classList.add("club");
+      break;
+    case 4:
+      cardPicker.classList.add("spade");
+  }
 };
